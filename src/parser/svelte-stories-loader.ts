@@ -1,7 +1,7 @@
-import dedent from 'ts-dedent';
 import { readFileSync } from 'fs';
 import * as svelte from 'svelte/compiler';
 import { PreprocessorGroup } from 'svelte/types/compiler/preprocess/types';
+import dedent from 'ts-dedent';
 import { extractStories } from './extract-stories';
 
 const parser = require.resolve('./collect-stories').replace(/[/\\]/g, '/');
